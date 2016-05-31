@@ -6,7 +6,7 @@ def parseJson(text) {
 }
 
 def setup() {
-    def json = parseJson(readFile('example.groovy'))
+    def json = parseJson(readFile('example.json'))
     return json.names
 }
 
