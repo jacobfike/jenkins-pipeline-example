@@ -4,3 +4,5 @@ import groovy.json.*
 def parseJson(text) {
   return new JsonSlurper().parseText(text)
 }
+
+return this
