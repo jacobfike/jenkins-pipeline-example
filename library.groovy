@@ -7,7 +7,7 @@ def parseJson(text) {
 
 def setup() {
     def json = parseJson(readFile('example.json'))
-    echo "NAMES: " + json.names
+    env.NAMES = json.names
 }
 
 return this
