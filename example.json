@@ -1,3 +1,6 @@
 {
-  "key": "value"
+  "key": "value",
+  "bob": "dave",
+  "jim": "richard",
+  "names": ["bob","dave","jim"]
 }
